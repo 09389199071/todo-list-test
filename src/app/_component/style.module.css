@@ -1,0 +1,94 @@
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--dark-color);
+  margin-top: 40px;
+}
+
+.form {
+  margin-top: 20px;
+}
+.form input[type="text"] {
+  display: block;
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border: 1px solid var(--gray-color);
+  margin: 10px 0 20px;
+}
+.btnSubmit {
+  background: var(--dark-color);
+  color: var(--white-color);
+  padding: 0.6rem 1.3rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  transition: opacity 0.2s ease-in;
+  outline: none;
+  display: block;
+  width: 100%;
+  margin: 20px 0;
+}
+
+/* task */
+.WrapperTask {
+  padding: 1rem;
+  border: 1px dotted var(--gray-color);
+  margin: 0.8rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.colorRed {
+  color: var(--primary-color);
+  font-size: 30px;
+}
+.colorGreen {
+  color: var(--success-color);
+  font-size: 30px;
+}
+
+.text {
+  display: flex;
+}
+.button {
+  display: flex;
+}
+.edit {
+  background: var(--gray-color);
+  border: 0;
+  padding: 5px 20px;
+  margin-right: 20px;
+}
+.delete {
+  background: var(--primary-color);
+  border: 0;
+  padding: 5px 20px;
+  color: var(--white-color);
+}
+.save {
+  background: var(--success-color);
+  border: 0;
+  padding: 5px 20px;
+  color: var(--white-color);
+}
+.textTodo {
+  padding-left: 20px;
+}
+
+.inputEdit {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 80%;
+}
+
+.inputEdit input[type="text"] {
+  display: block;
+
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border: 1px solid var(--gray-color);
+  margin: 5px 0 5px;
+}

@@ -1,0 +1,18 @@
+.header {
+  color: rgb(255, 255, 255);
+  background: var(--primary-color);
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 2rem;
+  z-index: 1;
+  width: 100%;
+  opacity: 0.9;
+  margin-bottom: 1rem;
+  display: flex;
+}
+.header h1 {
+  font-size: 1.5rem;
+}
+.header h1 svg {
+  margin-right: 10px;
+}

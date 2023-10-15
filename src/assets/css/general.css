@@ -1,0 +1,109 @@
+@font-face {
+  font-display: fallback;
+  font-family: shabnam;
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/shabnam/Shabnam-Bold.eot") format("embedded-opentype"),
+    /* url("/fonts/shabnam/Shabnam-Bold.woff2") format("woff2"), */
+      url("/fonts/shabnam/Shabnam-Bold.woff2") format("woff"),
+    url("/fonts/shabnam/Shabnam-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: shabnam;
+  font-style: normal;
+  font-weight: 600;
+  src: url("/fonts/shabnam/Shabnam-Medium.eot") format("embedded-opentype"),
+    /* url("/fonts/shabnam/Shabnam-Medium.woff2") format("woff2"), */
+      url("/fonts/shabnam/Shabnam-Medium.woff2") format("woff"),
+    url("/fonts/shabnam/Shabnam-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: shabnam;
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/shabnam/Shabnam-Light.eot") format("embedded-opentype"),
+    /* url("/fonts/shabnam/Shabnam-Light.woff2") format("woff2"), */
+      url("/fonts/shabnam/Shabnam-Light.woff2") format("woff"),
+    url("/fonts/shabnam/Shabnam-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: shabnam;
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/shabnam/Shabnam-Thin.eot") format("embedded-opentype"),
+    /* url("/fonts/shabnam/Shabnam-Thin.woff2") format("woff2"), */
+      url("/fonts/shabnam/Shabnam-Thin.woff2") format("woff"),
+    url("/fonts/shabnam/Shabnam-Thin.ttf") format("truetype");
+}
+:root {
+  --border-radius: 12px;
+  --primary-color: #dc3545;
+  --dark-color: #333;
+  --light-color: #f4f4f4;
+  --success-color: #28a745;
+  --white-color: #ffffff;
+  --gray-color: #ccc;
+}
+body {
+  padding: 0 !important;
+  margin: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+html {
+  scroll-snap-type: y mandatory;
+}
+
+* {
+  box-sizing: border-box;
+  letter-spacing: 0 !important;
+}
+
+p,
+a,
+body,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+ul,
+li,
+div,
+input,
+small,
+table,
+tbody,
+thead,
+th,
+td,
+tr,
+textarea,
+button,
+label,
+.title {
+  font-family: shabnam, sans-serif !important;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+p,
+ul {
+  margin-bottom: 0 !important;
+  list-style-type: none;
+  padding: 0 !important;
+}
